@@ -27,3 +27,5 @@ The game code consists of the three languages;
 2. CSS
 
 3. HTML
+
+The game is coded mainly in java, meanwhile, css and html laid the base and acted like a skeleton for the game. The game 
