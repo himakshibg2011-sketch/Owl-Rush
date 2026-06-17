@@ -1,0 +1,214 @@
+@font-face{
+    font-family:'chewy';
+    src:url('Chewy-Regular.ttf');
+}
+body{
+    margin:0;
+    overflow:hidden;
+    color:white;
+
+    background-image:url("Background.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+#homeScreen{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    height:100vh;
+}
+
+h1{
+    font-family:'chewy';
+    font-size:100px;
+    margin:0;
+    color:white;
+}
+#startImage{
+    position:absolute;
+    top:400px;
+    width:170px;
+    border-radius:5px;
+    cursor:pointer;
+    transition:transform 0.3s
+}
+
+#startImage:hover{
+    transform:scale(1.05);
+}
+
+
+#gameOverScreen{
+    display:none;
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100vw;
+    height:100vh;
+
+    justify-content:center;
+    align-items:center;
+    z-index:99999;
+}
+
+#player{
+    position:absolute;
+    left:100px;
+    top:250px;
+    width:60px;
+    height:60px;
+}
+
+#gameScreen{
+    width:100vw;
+    height:100vh;
+    position:relative;
+    overflow:hidden;
+}
+
+.pipe{
+    position:absolute;
+    width:50px;
+    height:auto;
+    z-index:1;
+}
+
+#score{
+    position:absolute;
+    
+    top:50%;
+    left:68%;
+
+    transform:translate(-50%, -50%);
+
+    color:white;
+    font-size: 24px;
+    font-family: Arial, sans-serif
+}
+
+#scoreBoard{
+    width:140px;
+}
+
+#scoreContainer{
+    position:absolute;
+    top:30px;
+    left:50px;
+    z-index:9999;
+}
+
+#gameOverImage{
+    position:absolute;
+
+    top:40%;
+    left:50%;
+
+    transform:translate(-50%, -50%);
+
+    width:500px;
+}
+
+#finalScore{
+    position:absolute;
+    font-size:35px;
+    color:white;
+    top:49.2%;
+    left:56%;
+    z-index:1000000;
+}
+
+#bestScore{
+    position:absolute;
+    top:57.1%;
+    left:56%;
+    color:white;
+    font-size:35px;
+    z-index: 1000000;
+
+}
+
+.blur{
+    filter:blur(8px);
+}
+
+#playAgainButton{
+    position:absolute;
+
+    top:70%;
+    left:34%;
+
+    width:300px;
+
+    cursor:pointer;
+    z-index:9999;
+}
+
+#homeButton{
+    position:absolute;
+
+    top:70%;
+    left:800px;
+
+    width:70.2px;
+
+    cursor:pointer;
+}
+
+#modeButton{
+    width:150px;
+    cursor:pointer;
+    display:block;
+    margin:auto;
+    position:absolute;
+    top: 5%;
+    left:7%;
+    z-index:9999;
+}
+
+#difficultyPanel{
+    width:250px;
+    cursor:pointer;
+    display:none;
+    margin:auto;
+    position:absolute;
+    top:13%;
+    left:3%;
+    z-index:9999;
+}
+
+#pausePanel{
+    display:none;
+
+    position:absolute;
+
+    top:150px;
+    left:1250px;
+
+    transform:translate(-50%, -50%);
+
+    width:174px;
+
+    z-index:1000;
+
+    cursor:pointer;
+}
+
+#pauseButton{
+    position:absolute;
+    width:48px;
+    left:1176px;
+}
+
+#soundButton{
+    position:absolute;
+
+    top:5%;
+    left:1176px;
+
+    width:48px;
+}
