@@ -4,3 +4,12 @@ In this web browser game, you will fly as an owl and will have to dodge the upco
 
 HOW DOES THE GAME WORK
 
+In this web playable game, you will first land on a homepage in which you will see thre buttons:
+
+1.Mode
+
+2.Music
+
+3.Play
+
+First choose the mode you would like to play (easy or hard) then,
