@@ -28,7 +28,7 @@ The game code consists of the three languages;
 
 3. HTML
 
-The game is coded mainly in java, meanwhile, css and html laid the base and acted like a skeleton for the game. The game does not contain any use of AI, the game is fully coded by myself.There also has been use of lapse for UI design (and sometimes for the coding, when the wakatime extension crashed).
+The game is coded mainly in java, meanwhile, css and html laid the base and acted like a skeleton for the game. The game does not contain any use of AI, the game is fully coded by myself. There also has been use of lapse for UI design (and sometimes for the coding, when the wakatime extension crashed).
 
 Thx for reading, I hope you enjoy the game:)
 
