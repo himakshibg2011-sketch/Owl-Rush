@@ -28,4 +28,6 @@ The game code consists of the three languages;
 
 3. HTML
 
-The game is coded mainly in java, meanwhile, css and html laid the base and acted like a skeleton for the game. The game 
+The game is coded mainly in java, meanwhile, css and html laid the base and acted like a skeleton for the game. The game does not contain any use of AI, the game is fully coded by myself.
+
+Thx for reading, I hope you enjoy the game:) (PS: This is my second project so I could not make a very high-level end game)
