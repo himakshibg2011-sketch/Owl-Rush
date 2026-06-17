@@ -16,7 +16,14 @@ First choose the mode you would like to play (easy or hard) then, on/off the mus
 
 HOW TO PLAY
 
-After starting the game, you will have to dodge the upcoming pipes in order to survive the game, you will be playing as an owl and in order to dodge the pipes you will have to fly through space between the pipes. Compete with your friends and check who gets the highest score through the end screen.
+After starting the game, you will have to dodge the upcoming pipes in order to survive the game, you will be playing as an owl and in order to dodge the pipes you will have to fly through space between the pipes. Your score will be shown on top-left corner. Compete with your friends and check who gets the highest score through the game over screen. If you wish to pause/quit the game you can click the pause button on top-right corner.
 
 ABOUT THE GAME CODE AND USAGE OF AI
 
+The game code consists of the three languages;
+
+1. Javascript
+
+2. CSS
+
+3. HTML
