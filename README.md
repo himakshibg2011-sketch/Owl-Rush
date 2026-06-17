@@ -12,4 +12,4 @@ In this web playable game, you will first land on a homepage in which you will s
 
 3.Play
 
-First choose the mode you would like to play (easy or hard) then,
+First choose the mode you would like to play (easy or hard) then, on/off the music as per your will by clicking on the music button and then click the play button to start the game.
