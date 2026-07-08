@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Night Owl Flight</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="homeScreen">
+    <h1>Owl Rush</h1>
+    <img id="startImage" src="playbutton.png" alt="Start Game">
+    <img id="modeButton" src="mode.png">
+    <img id="difficultyPanel" src="difficulty.png">
+    <img id="soundButton" src="audio1.png">
+</div>
+
+<div id="gameScreen">
+   <div id="scoreContainer">
+    <img src="scorebox.png" id="scoreBoard">
+    <span id="score">0</span>
+    <img id="pauseButton" src="pause.png">
+    </div>
+
+    <div>
+    <img id="pausePanel" src="pausemenu.png">
+   </div>
+    
+    <div id="moon"></div>
+    <img id="player" src="owl.png" alt="Owl">
+</div>
+
+<div id="gameOverScreen">
+    <img id="gameOverImage" src="gameover.png">
+    <div id="finalScore">0</div>
+    <div id="bestScore">0</div>
+    <img id="playAgainButton" src="playagain.png">
+    <img id="homeButton" src="homebutton.png">
+</div>  
+
+<audio id = "bgMusic" loop>
+    <source src = "music.mp3" type = "audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
